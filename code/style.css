@@ -1,0 +1,44 @@
+body, h1, h2 {
+  margin: 0
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 30px;
+}
+
+h1, h2 {
+  font-family: 'Cairo', sans-serif;
+}
+
+h2:nth-child(1){
+  margin-right: 7px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #8f9dc5;
+  margin: 10%;
+  padding: 40px 20px;
+  background-color: #e4e4e4;
+  box-shadow: 3px 14px 26px -10px #929292;
+  width: 70%;
+}
+
+.coldstyle, .warmstyle {
+  width: 100%;
+}
+
+.coldstyle {
+  background-color: #b4c8ff;
+}
+
+.warmstyle {
+  background-color: #ffc297;
+}
